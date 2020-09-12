@@ -29,7 +29,7 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 LOGIN_REDIRECT_URL = "/"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['shrouded-reef-70420.herokuapp.com/', '127.0.0.1']
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
